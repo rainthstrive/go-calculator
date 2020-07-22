@@ -48,9 +48,9 @@ func LeerEntrada() string {
 	return scanner.Text()
 }
 
-func main() {
+/*func main() {
 	entrada := LeerEntrada()
 	operador := LeerEntrada()
-	c := calc{}
+	c := Calc{}
 	fmt.Println(c.operate(entrada, operador))
-}
+}*/
