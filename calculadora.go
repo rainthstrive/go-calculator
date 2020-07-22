@@ -8,10 +8,11 @@ import (
 	"strings"
 )
 
-type calc struct {
+type Calc struct {
 }
 
-func (calc) operate(entrada string, operador string) int {
+//Operate hace las operaciones
+func (Calc) Operate(entrada string, operador string) int {
 	entradaLimpia := strings.Split(entrada, operador)
 	operador1 := parsear(entradaLimpia[0])
 	operador2 := parsear(entradaLimpia[1])
